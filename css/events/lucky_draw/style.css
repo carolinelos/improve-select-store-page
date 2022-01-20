@@ -1,0 +1,244 @@
+
+.btn-container {
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+}
+.btn {
+	position: relative;
+	padding: 14px 55px;
+	margin:10px;
+	font-size: 16px;
+}
+.btn.btn-orange {
+	background: #FA751D 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 0px #C6580E;
+	border-radius: 4px;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	letter-spacing: 0px;
+}
+.lucky-draw-body{
+	font-family: 'Nunito', sans-serif;
+	/* background: url("../../images/lucky draw/background.png"); */
+	background-image: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/lucky-cards-bg-2020.svg");
+	width: 960px;
+	border-radius: 40px;
+	text-align: center;
+	/* height: 760px !important; */
+	display:flex;
+	flex-direction: column;
+	position: absolute !important;
+	z-index: 99;
+	bottom: -33px;
+	padding-bottom: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.lucky-draw-body .close-btn{
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	background: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/close-btn.png");
+	cursor: pointer;
+	top: 24px;
+	right: 24px;
+	display: none;
+	z-index: 1;
+}
+.lucky-draw-body h2{
+	font-family: 'Nunito', sans-serif;
+	font-size: 45px;
+	font-weight: 200;
+	color: #fff;
+	position: relative;
+	margin-top: 35px;
+}
+.lucky-draw-body h2 span {
+	font-weight: 800;
+}
+/* .lucky-draw-body h2:before{
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 7px;
+	bottom: -8px;
+	left: calc(50% - 150px/2);
+	border-bottom: 7px solid #F15933;
+} */
+
+.lucky-draw-body h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.lucky-draw-body h4{
+	font-family: 'Gibson Light';
+	font-size: 28px;
+	font-weight: normal;
+	color: #575757;
+	margin-top: 10px;
+}
+.lucky-draw-body h4 a{
+	font-weight: 700;
+}
+.lucky-draw-body .lucky-cards-container{
+	width: 100%;
+	height: 429px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lucky-draw-body .lucky-cards-container .lucky-card{
+	display: inline-block;
+	width: 18%;
+	cursor: pointer;
+	z-index: 1;
+}
+.lucky-draw-body .lucky-cards-container .lucky-card:hover{
+	background-position-x: center;
+	transition: 0.3s;
+	z-index: 1;
+}
+.lucky-draw-body .lucky-cards-container .lucky-card img{
+	width: 98%;
+	transition: 0.3s;
+}
+.lucky-draw-body .lucky-cards-container .lucky-card:hover img{
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+.lucky-draw-body .lucky-cards-container .lucky-card{
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 310px;
+	margin: 0 5px 30px 5px;
+	transition: 0.3
+}
+
+tbody{
+	position: relative;
+}
+.no-margin{
+	margin: 0 !important;
+}
+.lucky-draw-result{
+	display: none;
+}
+.lucky-draw-result .img-container{
+	width: 600px;
+	z-index: 1;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.lucky-draw-result .img-container.points {
+	justify-content: center;
+}
+.lucky-draw-result .validity-period{
+	color: #252525;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 44px;
+}
+.lucky-draw-result .terms-lucky-draw {
+	font-size: 20px;
+	color: #fff;
+}
+.lucky-draw-result .img-container .description-container{
+	width: 330px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.lucky-draw-result.voucher .img-container .description-container {
+	margin-top: 30px;
+}
+.lucky-draw-result.voucher .validity-period {
+	margin-top: 50px;
+}
+.lucky-draw-result .img-container .description-container h3{
+	color: #EB5D53;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lucky-draw-result .img-container .description-container h4{
+	color: #fff;
+	font-size: 90px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+}
+.lucky-draw-result.regpoints .img-container .description-container h4 {
+	font-size: 33px;
+	margin-top:59px;
+}
+.lucky-draw-result .img-container .description-container p{
+	color: #575757;
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.lucky-draw-result.gift .img-container, .lucky-draw-result.voucher .img-container{
+	background-image: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/bg_reward_voucher.svg");
+}
+.lucky-draw-result.points .img-container{
+	background-image: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/bg_reward_points.svg");
+}
+.lucky-draw-result.regpoints .img-container{
+	background-image: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/bg_regular_points_ec.svg");
+	background-position: center;
+}
+.lucky-draw-result .img-container .description-container img{
+	z-index: 1;
+	max-width: 100%;
+}
+.lucky-draw-result.points .img-container {
+	justify-content: center;
+}
+.lucky-draw-result .img-container .extra-points{
+	width: 140px;
+	height: 200px;
+	position: absolute;
+	display: block;
+	right: calc(-115px/2);
+	top: calc(50% - 370px/2);
+	content: "";
+	background-image: url("https://ecm-dev-pub.s3.amazonaws.com/test-events/lucky_cards/images/lucky draw/extra_coin-2020.svg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	font-size: 30px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Nunito', sans-serif;
+	line-height: 30px;
+}
+.lucky-draw-result .img-container .extra-points span:nth-child(1) {
+	font-size: 18px;
+	font-weight: 200;
+	margin-top: 27px;
+}
+.lucky-draw-result .img-container .extra-points span:nth-child(2) {
+	font-size: 23px;
+	font-weight: 700;
+}
+.lucky-draw-result h4 a:hover {
+	text-decoration: underline;
+}

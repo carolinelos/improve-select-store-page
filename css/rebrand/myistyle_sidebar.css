@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../../fonts/NunitoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../../fonts/NunitoSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../../fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+.content_innr {
+  font-family: "Roboto"; }
+
+.account,
+.account\:regular {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.activity,
+.activity\:regular {
+  background-position: 0 -15px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.benefit,
+.benefit\:regular {
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.email,
+.email\:regular {
+  background-position: 0 -45px;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 16px; }
+
+.order,
+.order\:regular {
+  background-position: 0 -61px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.wishlist,
+.wishlist\:regular {
+  background-position: 0 -76px;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 13px; }
+
+.membership.side_navigation .nav_segment {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+  position: relative;
+  font-family: "Roboto";
+  font-size: 13px; }
+
+.membership.side_navigation .nav_segment .submenu,
+.membership.side_navigation .nav_segment .nav_title {
+  padding: 10px; }
+
+.membership.side_navigation .nav_segment .nav_title {
+  color: #fff;
+  background-color: #252525;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.membership.side_navigation .nav_segment .submenu li {
+  padding: 5px 0; }
+
+.membership.side_navigation .nav_segment.email_segment {
+  display: flex;
+  align-items: center;
+  padding: 10px; }
+
+.membership.side_navigation .nav_segment.email_segment .submenu {
+  padding: 0; }
+
+.membership.side_navigation .nav_segment.email .submenu li a {
+  display: inline-block; }
+
+.membership.side_navigation .nav_segment .submenu li a:hover {
+  color: #FA751D; }
+
+.membership.side_navigation .icon {
+  background-image: url(../../images/rebrand/sprites/istyle_sidebar_spritesheet.png);
+  margin-right: 10px; }
+
+.bbadge {
+  margin-left: 10px; }
+
+.reviewCount {
+  display: inline-block;
+  padding: 5px 6px 4px 6px;
+  min-width: 13px;
+  text-align: center;
+  margin-right: -6px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1;
+  background: #FED000;
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #252525;
+  font-weight: 700; }
+
+/*# sourceMappingURL=myistyle_sidebar.css.map */

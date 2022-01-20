@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.dot_list ul li{position:relative; padding-left:10px; margin-top:6px; text-indent:0; font-size:12px; color:#666666; line-height:16px;}
+.explanation dt + .dot_list ul li:first-child{margin-top:4px;}
+.dot_list ul li:first-child{margin-top:0;}
+.dot_list ul li:before{content:""; position:absolute; top:6px; left:0; display:inline-block; width:2px; height:2px; background:#222;}
+.explanation dt + .dot_list .table_type01 + ul li:first-child{margin-top:17px;}
+
+/* table */
+.table_type01{margin-top:16px;}
+.table_type01 table{width:100%; border-collapse:collapse; }
+.table_type01 thead tr:first-child th{border-top-color:#333;}
+.table_type01 thead th{height:22px; background:#f7f7f7; border:1px solid #c6c6c6; font-size:12px; color:#222222;}
+.table_type01.th_type02 thead th{height:45px;}
+.table_type01 tbody td{height:44px; border:1px solid #e9e9e9; font-size:12px; color:#444444; text-align:center;}
+
+/* gray_bx type02 */
+.gray_bx.type02{background-color:#fafafa; border:1px solid #e3e3e3; padding:0;}
+.gray_bx.type02 ul:after{content:""; display:block; clear:both;}
+.gray_bx.type02 ul li{float:left; height:178px; text-align:center;}
+.gray_bx.type02 ul .box{width:21%;}
+.gray_bx.type02 ul .box > img{margin-top:20px;}
+.gray_bx.type02 ul .box p{margin-top:8px; font-size:12px; color:#222; line-height:16px; text-align:center; padding:0 18px;}
+.gray_bx.type02 ul .box p a{color:inherit; text-decoration:underline;}
+.gray_bx.type02 ul .icon{width:5%;}
+.gray_bx.type02 ul .icon .icon_arr{margin-top:66px;}
+.gray_bx.type02 ul .box:last-child{width:22%;}
+
+
+.company_wrap .explanation dd .gray_bx.type03{padding:20px 0 20px 20px;}
+.gray_bx.type03 .icon_circle{display:inline-block; margin:0 8px 0 0;}
+.company_wrap .explanation dd .gray_bx.type03 li{padding-left:0; margin-top:10px;}
+.company_wrap .explanation dd .gray_bx.type03 li:first-child{ margin-top:0;}
+.gray_bx.type03 li:before{display:none;}
+
+.company_wrap .explanation dd .gray_bx.gray_bx.type04{margin-top:0; border-top:0;}
+.company_wrap .explanation dd .gray_bx.gray_bx.type04 li{margin-top:6px;}
+.company_wrap .explanation dd .gray_bx.gray_bx.type04 li:first-child{margin-top:0;}
+
+.type_infobox{height:200px;}
+.type_infobox:after{content:""; display:block; clear:both;}
+.type_infobox .type_leftbox{float:left; width:300px; height:100%; background:#000; text-align:left;}
+.type_infobox .type_leftbox .type_wrap{padding:20px;}
+.type_infobox .type_leftbox .type_wrap dt{font-size:20px; color:#fff; font-weight:bold;}
+.type_infobox .type_leftbox .type_wrap dd{font-size:16px; color:#999; line-height:19px; margin-top:11px;}
+.type_infobox .type_rightbox{position:relative; float:left; width:680px; height:100%; overflow:hidden;}
+.type_infobox .type_rightbox .type_wrap{position:absolute; padding:0; width:200%; left:-50%; font-size:0; text-align:center;}
+.bigicon_list + .type_infobox{margin-top:47px;}
+.type_infobox + .type_infobox{margin-top:50px;}
+/* icon */
+.icon_check{display:inline-block; width:14px; height:9px; background: url(../images/company/sp_ico_common.png) no-repeat;}
+.icon_circle{display:block; width:16px; height:16px; margin:20px auto 0 auto; background:#666666; border-radius:100%; font-size:11px; color:#fff; text-align:center;}
+.icon_arr{display:inline-block; width:18px; height:34px; background: url(../images/company/sp_ico_common.png) no-repeat 0 -300px;}
+
+/* list */
+.type_infobox + .bigicon_list .bigicon_area:first-child{margin-top:25px;}
+.bigicon_list .bigicon_area{margin-top:13px;}
+.bigicon_list .bigicon_area:first-child{margin-top:0;}
+.bigicon_list .icon{display: inline-block; width: 28px; height: 28px; background: url(../images/company/sp_ico_common.png) no-repeat 0 -20px; vertical-align:top; margin-top:4px;}
+.bigicon_list .icon.type02{background-position:0 -92px;}
+.bigicon_list .icon.type03{background-position:0 -340px;}
+.bigicon_list .icon.type04{background-position:0 -380px;}
+.bigicon_list .icon.type05{background-position:0 -420px;}
+.bigicon_list .icon.type06{background-position:0 -460px;}
+.bigicon_list .icon.type07{background-position:0 -500px;}
+.bigicon_list dl{display: inline-block; margin-left: 10px; color: #666;}
+.bigicon_list dl dt{font-size: 12px; display: block; color: #222; font-weight:bold;}
+.bigicon_list dl dd{color: #666; line-height:16px;}
+@media all and (max-width:1280px) {
+	.type_infobox .type_leftbox{width:250px;}
+	.type_infobox .type_rightbox{width:490px;}
+	.bigicon_list dl dd{max-width:690px;}
+}

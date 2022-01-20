@@ -1,0 +1,5 @@
+select {padding:0 !important;}
+
+/* table calc() bug */
+.tb_type1 table, .tb_type3 table,
+.addr_loclist_wrap .addr_loclist_tb {width:100%;}

@@ -1,0 +1,20 @@
+.clearfix { overflow: auto;}
+.clearfix::after { content: ""; clear: both; display: table;}
+
+.specialdeals_widget{margin-right:-6px;}
+.specialdeals_widget > li{float:left; padding-right:6px; width:25%; box-sizing:border-box;}
+.specialdeals_widget > li > a{display:block; width:100%; max-height:474px; overflow:hidden;}
+.specialdeals_widget > li > a > img{width:100%;}
+
+.logo_specialdeals{width:255px; height:40px; background: url(../images/common/sp_ico_common.png) no-repeat -740px -400px; position:relative; z-index:2; background-color:#fff;}
+.logo_3days-surprise{width:260px; height:40px; background: url(../images/common/sp_ico_common.png) no-repeat -480px -400px; position:relative; z-index:2; background-color:#fff;}
+
+
+.tit_hgroup_type6 { margin-bottom: 7px; margin-top:20px;}
+.tit_hgroup_type6:after{height:5px;}
+.tit_hgroup_type6.withlogo{height:40px;}
+.tit_hgroup_type6.withlogo:after{top:23px;}
+.tit_hgroup_type6 .tit_h {font-size: 18px;}
+
+#footer{margin-top:45px;}
+.ft_banner_area{margin-top:25px;}

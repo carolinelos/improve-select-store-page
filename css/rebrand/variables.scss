@@ -1,0 +1,58 @@
+//font declarations
+
+//Nunito Sans
+@font-face {
+    font-family: "NunitoSans";
+    src: url("../../fonts/NunitoSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("../../fonts/NunitoSans-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("../../fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+//Roboto
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+//variable declarations
+$Roboto : "Roboto";
+$NunitoSans : "NunitoSans";
+$black : #252525;
+$lightText : #707070;
+$yellow : #FED000;
+$orange : #FA751D;
+$red : #F23838;
+$dark_red: #AA0613;
+$grayBG : #F3F5F6;
+$dark_grey: #808080;
+$light_grey: #D0D0D0;

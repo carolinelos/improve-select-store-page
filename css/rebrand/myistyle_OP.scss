@@ -1,0 +1,170 @@
+/* Icons from directory "" */
+@import 'layout.scss';
+
+select, .select_ui > button {
+    height: 28px;
+    padding: 0 26px 0 8px;
+    border: 1px solid #aaa;
+    color: #444;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.btn_type3.color01{
+    border-radius: 4px;
+    color: $black;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+}
+
+.btn_type3.color01.on {
+    color: white;
+    border-color: $black;
+    background-color: $black;
+    cursor: pointer;
+}
+
+.btn_type1 {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    height: 41px;
+    font-size: 14px;
+    color: $black;
+    line-height: 41px;
+    text-align: center;
+    vertical-align: middle;
+    /* letter-spacing: -0.5px; */
+    background-color: $yellow;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 600;
+    &:hover{
+        color: $black;
+        background-color: darken($yellow, 1%);
+    }
+}
+
+.snote{
+    color: $black;
+    font-size: 13px;
+}
+.bltext_type1 > li{
+    font-family: $Roboto;
+    font-size: 13px;
+    color: $black;
+}
+
+.bltxt_type1 > li, p.bltxt_type1 {
+    font-family: $Roboto;
+    font-size: 13px;
+    color: #666666;
+}
+
+.order_itembox_wrap + .order_itembox_wrap {
+    margin-top: 0;
+}
+
+
+.order_itembox.bg_checked, .order_item.bg_checked {
+    border: 0;
+    border-top: 1px solid #DDDDDD;
+    border-bottom-color: transparent;
+    background: transparent;
+}
+
+.order_info_type1 .order_info_box {
+    border: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.order_itembox_wrap.delivery .order_itembox .order_item {
+    padding-bottom: 0;
+}
+
+.order_itembox.bg_checked:hover, .order_item.bg_checked:hover {
+    background-color: transparent;
+    border-color: #DDDDDD;
+}
+
+.order_itembox {
+    border: 0;
+}
+
+.order_item_wrapper{
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.order_item .order_item_row .pulsa_aw span {
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+.order_item .order_item_row {
+    display: table;
+    width: 100%;
+    color: #222;
+    box-sizing: border-box;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.btn_type4.color01 {
+    border: 1px solid #DDDDDD;
+    color: $black;
+    background-color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.checkbox input:not(:checked) + label {
+    
+}
+
+.checkbox input + label:before {
+    content: '';
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: none;
+}
+
+.checkbox input:not(:checked):disabled + label:before {
+    background-color: #DDDDDD;
+}
+
+.checkbox input:checked + label:before {
+    background: url(../../images/rebrand/icons/yellow-check.png) no-repeat;
+    background-size: contain;
+    border: 0;
+}
+
+.order_info_type1 .order_info_list .txt_num {
+    font-weight: bold;
+    font-size: 16px;
+    color: $black;
+}
+
+.btn_type2.color01 {
+    border: 1px solid #DDDDDD;
+    color: $black;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.btn_type1.small_fm {
+    min-width: 90px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}

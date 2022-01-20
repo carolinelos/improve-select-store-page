@@ -1,0 +1,8 @@
+select {padding:0 !important;}
+select, input, textarea {max-width:none !important;}
+
+/* Use default checkbox & radio */
+.checkbox, .radio {padding:0 !important;}
+.checkbox input, .radio input {position:static !important; margin:0 5px 0 0 !important;}
+.checkbox input + label, .radio input + label {position:static !important; display:inline !important; padding:0 !important;}
+.checkbox input + label:before, .radio input + label:before {content:none !important;}

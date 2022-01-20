@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {font-size: 12px;}
+table.file-list tr td:first-child {text-align:center;}
+table.file-list {border-collapse:collapse; margin:0 0 20px; width:100%; border-bottom:1px solid #ccc;}
+table.file-list th {background-color:#f0f0f0; border:1px solid #ccc; border-bottom:double #ccc; padding:5px; white-space: nowrap;}
+table.file-list td {border:1px solid #ccc; padding:10px 10px 10px 15px; }
+table.file-list td.id {padding: 0; color: #d0d0d0;}
+table.file-list td.c {text-align: center;}
+table.file-list td.file {color:#aaa;}
+table.file-list td.file a {color:#201e8f; text-decoration:none; font-weight:bold;}
+table.file-list td.date {text-align:center;}
+table.file-list td del, table.file-list td del a {color:#999;}
+table.file-list td:hover {background-color: #eee; }
+table.file-list tr.line td {border-top: 2px solid #ccc;}
+table.file-list tr.end td {background-color:#eee;}
+table.file-list tr:hover td {background-color: #ccc;}
+td:last-child {font-size:11px;}
+strong, .point {color: red;}
+p {padding: 0; margin: 0;}
+h2 {margin:0; padding:10px; background-color:#ccc; font-size:16px; line-height:1;}
+.index_tab {width:100%; list-style-type:none;}
+.index_tab ul {padding:0; margin:0; display:table;}
+.index_tab ul li { /*float:left;*/ padding:0; margin:0; display:table-cell; width:calc(100% / 11);}
+.index_tab ul li a {line-height:32px; border:1px solid #bdbdbd; display:block; text-decoration:none; text-align:center; font-size:14px; font-weight:bold; color:black;}
+.index_tab ul li a.on {background:#bdbdbd; color:#ffffff;}
